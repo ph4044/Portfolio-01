@@ -169,8 +169,8 @@ h3{
 /* for the image 1 in portfolio.html */
 #pic-cont1{
     margin: 10px 0 0 0;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 225px;
     float: left;
     background: url(../images/giphy_s.gif);
     background-size: cover;
@@ -180,8 +180,8 @@ h3{
 /* for the image 2 in portfolio.html */
 #pic-cont2{
     margin: 10px 0 0 30px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 225px;
     float: left;
     background: url(../images/train-tracks.PNG);
     background-size: cover;
@@ -191,8 +191,8 @@ h3{
 /* for the image 3 in portfolio.html */
 #pic-cont3{
     margin: 30px 0 0 0;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 225px;
     float: left;
     background: url(../images/retirement.PNG);
     background-size: cover;
@@ -202,8 +202,8 @@ h3{
 /* for the image 4 in portfolio.html */
 #pic-cont4{
     margin: 30px 0 0 30px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 225px;
     float: left;
     background: url(../images/person-ph.jpg);
     background-size: cover;
@@ -226,11 +226,12 @@ h3{
     position: absolute;
     bottom: 10px;
     margin: 0;
-    font: 14px Sans-Serif;
-    height: 35px;
+    padding-top: 5px;
+    font: 18px Sans-Serif;
+    height: 50px;
     width: 100%;
     text-align: center;
-    line-height: 35px;
+    line-height: 20px;
     background-color: #4aaaa5;
     color: white;
 }
@@ -249,6 +250,13 @@ a, a:visited {
 #link-work, #link-work:visited {
     color:white;
     text-decoration:none;
+}
+
+
+#repo-link {
+    color: grey;
+    text-decoration:none;
+    font-size: 12px;
 }
 
 /* only img is in index.html 
