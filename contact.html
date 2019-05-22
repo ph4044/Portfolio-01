@@ -1,14 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Reset CSS stylesheet -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
+
+      <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Document</title>
 </head>
 
@@ -19,7 +28,8 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <a class="navbar-brand" href="index.html" id="logo"><h1>Philip Hu</h1></a>
+            <a class="navbar-brand" href="index.html" id="logo"><h2>Philip Hu</h2></a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,54 +54,37 @@
     </nav>
     <!-- Contact Me Section -->
 
-    <div class="container px-4 my-4 bg-white">
-        <div class="row">
-            <div class="col-md-12 my-3">
-                <h2>Contact</h2>
-                <hr>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-12">
-
-                <p><strong>Email: </strong><a href="mailto:gtphiliphu@gmail.com">gtphiliphu@gmail.com</a></p>
-                <p><strong>Phone: </strong>770-312-1201</p>
-                <p><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/gtphiliphu/"  target="_blank">https://www.linkedin.com/in/gtphiliphu/</a></p>
-                <p><strong>Github: </strong><a href="https://github.com/ph4044"  target="_blank">ph4044</a></p>
-
-    
-
-
-                <!-- <form class="mb-3">
-                    <div class="form-group">
-                        <label for="InputName">Name</label>
-                        <input type="name" class="form-control" id="InputName" placeholder="John Smith">
-                    </div>
-                    <div class="form-group">
-                        <label for="InputEmail">Email</label>
-                        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="example@gmail.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="comment">Message:</label>
-                        <textarea class="form-control" rows="8" id="comment"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-info" id="submit-btn">Submit</button>                  
-                </form> -->
-            </div>
-        </div>
+        <main class="container">
+            <section class="row">
+                <div class="col-md-8">
+                    <article class="block">
+                        <h2 class="block-header">Contact</h2>
+                        <hr>
+                            <p><strong>Email: </strong><a href="mailto:gtphiliphu@gmail.com">gtphiliphu@gmail.com</a></p>
+                            <p><strong>Phone: </strong>770-312-1201</p>
+                            <p><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/gtphiliphu/"  target="_blank">https://www.linkedin.com/in/gtphiliphu/</a></p>
+                            <p><strong>Github: </strong><a href="https://github.com/ph4044"  target="_blank">ph4044</a></p>
+            
+                    </article>
+                </div>
+            </section>
+        </main>
 
         <!-- Footer is common between index.html, portfolio.html and contact.html  -->
-
-        <footer class="fixed-bottom text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3>Copyright &#169</h3>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <footer class="footer">
+            <div class="two-toned-footer-color"></div>
+            <p class="text-muted text-muted-footer text-center">
+              &copy; Copyright
+            </p>
+          </footer>
+          <!-- End of footer -->
+        
+          <!-- jQuery CDN -->
+          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+          <!-- Bootstrap CDN -->
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 

@@ -1,4 +1,4 @@
-header{
+/* header{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     background-color: #fff;
     height: 80px;
@@ -33,7 +33,7 @@ nav ul{
     /* line-height:60px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 } */
-
+/* 
 
 p{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -68,7 +68,7 @@ h3{
     margin-top: 0;
     color: white;
     font-size: 15px;
-}
+} */
 /*
  section in index.html 
 #about-me{
@@ -155,10 +155,10 @@ h3{
 /* for the image 5 in portfolio.html */
 #pic-cont5{
     margin: 30px 0 30px 0;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 225px;
     float: left;
-    background: url(../images/bike-ph.jpg);
+    background: url(../images/bamazon.PNG);
     background-size: cover;
     position: relative;
 }
@@ -184,7 +184,7 @@ h3{
 }
 
 /* don't change the color or underline visited links  */
-a, a:visited {
+/* a, a:visited {
     color: #777777;
     text-decoration:none;
 }
@@ -199,7 +199,7 @@ a, a:visited {
     color: grey;
     text-decoration:none;
     font-size: 12px;
-}
+} */
 
 /* only img is in index.html 
 img{
@@ -210,7 +210,7 @@ img{
     margin: 0px 20px 10px 0px;
 }
 */
-/* footer is stuck to the bottom of page */
+/* footer is stuck to the bottom of page
 footer{
     text-align: center;
     border-top: 8px solid #4aaaa5;
@@ -227,9 +227,9 @@ footer{
 
 
 /* horizontal line, divider */
-hr{
+/* hr{
     border: 2px solid #ccc;
-}
+} */
 
 /*
 #contact-form{
@@ -265,13 +265,49 @@ textarea{
 } */
 
 /* submit button in contact.html */
-#submit-btn{
+/* #submit-btn{
     color: white;
-    background-color: #4aaaa5;
-}
-
-/* NAV START */
-#logo {
+    background-color: #4aaaa5; */ 
+/* } */
+/* --- STYLES FOR ALL PAGES --- */
+body {
+    /* Typography */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
+    /* Visual */
+    background-image: url("../imgs/ignasi_pattern_s.png");
+  }
+  
+  html {
+    /* Positioning */
+    position: relative;
+  
+    /* Box-model */
+    min-height: 100%;
+  }
+  
+  /* add space for fixed nav */
+  main {
+    margin: 80px 0;
+  }
+  
+  /* create styles for use for all white main boxes */
+  .block {
+    background-color: #fff;
+  
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .block-header {
+    /* Typography */
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+  }
+  
+  /* NAV START */
+  #logo {
     font-family: Georgia, Times, "Times New Roman", serif;
   
     /* Typography */
@@ -300,3 +336,121 @@ textarea{
     }
   }
   /* END NAV */
+  
+  
+  /* CONNECT W/ ME CSS */
+  .connect-header {
+    /* Typography */
+    font-size: 25px;
+  }
+  
+  .connect-photo {
+    /* Box-model */
+    width: 55px;
+    height: 55px;
+  }
+  
+  #images {
+    /* Box-model */
+    padding-top: 15px;
+  
+    /* Typography */
+    text-align: center;
+  }
+  /* END CONNECT W/ ME */
+  
+  
+  /* BEGIN FOOTER */
+  .footer {
+    /* Positioning */
+    position: absolute;
+    bottom: 0;
+  
+    /* Box-model */
+    width: 100%;
+    height: 60px;
+  
+    /* Visual */
+    background-color: #666;
+  }
+  
+  .text-muted-footer {
+    /* Box-model */
+    margin-top: 15px;
+  
+    /* Typography */
+    color: #fff;
+  }
+  
+  .two-toned-footer-color {
+    /* Box-model */
+    height: 6px;
+    padding-top: 3px;
+  
+    /* Visual */
+    background-color: #4aaaa5;
+  }
+  /* END FOOTER */
+  /* --- END STYLES FOR ALL PAGES --- */
+  
+  /* --- PAGE-SPECIFIC STYLES --- */
+  /* ABOUT-ME PAGE */
+  .about-me-header {
+    /* Positioning */
+    margin-bottom: 33px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 32px;
+    font-weight: bold;
+    color: #4aaaa5;
+  }
+  
+  #about-image {
+    /* Positioning */
+    float: left;
+  
+    /* Box-model */
+    width: 200px;
+    margin: 0 20px 10px 0;
+  }
+  /* END ABOUT-ME PAGE */
+  
+  
+  /* PORTFOLIO PAGE */
+  .port-image {
+    margin: 20px auto;
+  }
+  /* END PORTFOLIO PAGE */
+  
+  
+  /* CONTACT FORM PAGE  */
+  .form-control {
+    /* give input boxes right angles */
+    border-radius: 0;
+  
+    /* keep from horizontally resizing text area */
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  .submit-btn {
+    /* Box-model */
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: lighter;
+  
+    /* Typography */
+    color: #fff;
+  
+    /* Visual */
+    background-color: #4aaaa5;
+    border: 0;
+  }
+  
+  .submit-btn:hover {
+    opacity: .7;
+  }
+  
+  /* END CONTACT FORM PAGE */
+  

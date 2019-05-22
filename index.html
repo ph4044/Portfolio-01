@@ -1,55 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Bootstrap Basic Portfolio</title>
+
+    <!-- Reset CSS stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>About</title>
+
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" media="screen">
+
 </head>
 
 <body style="background-image: url(assets/images/white-waves.png)">
-
-    <!-- Header is common between index.html, portfolio.html and contact.html  -->
-
-    <!-- <header class="border-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 px-0">
-                    <h1>Philip Hu</h1>
-                </div>
-                <div class="col-md-9 px-0">
-                    <nav class="navbar navbar-expand-lg navbar-light py-0 px-0">
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item ml-3">
-                                    <a class="nav-link" href="index.html">About</a>
-                                </li>
-                                <li class="nav-item ml-3">
-                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                </li>
-                                <li class="nav-item ml-3">
-                                    <a class="nav-link pr-0" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header> -->
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <a class="navbar-brand" href="index.html" id="logo">
-                <h1>Philip Hu</h1>
-            </a>
+            <a class="navbar-brand" href="index.html" id="logo"><h2>Philip Hu</h2></a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,13 +34,13 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -76,21 +53,24 @@
 
     <!-- About Me Section -->
 
-    <main class="container my-4 bg-white">
+    <main class="container">
         <section class="row">
-            <div class="col-md-12 my-3 bg-white">
+            <div class="col-md-8">
                 <article class="block">
                     <h2 class="block-header">About Me</h2>
                     <hr>
                     <img src="assets/images/Philip.jpg" class="img-fluid rounded float-left mr-3" alt="about image"
                         width="15%">
-                    <p> Hello, World! I have a broad background in product development that spans mechanical design,
+                    <p> Hello, World! I have a broad background in product development that spans mechanical
+                        design,
                         CAD,
-                        project and program management and soon...with a little luck and a lot of effort...full stack
+                        project and program management and soon...with a little luck and a lot of
+                        effort...full stack
                         web
                         development! </p>
                     <p>
-                        Curiosity and a desire to gain skills have got me here. I'm finding out as I go, where
+                        Curiosity and a desire to gain skills have got me here. I'm finding out as I go,
+                        where
                         it will take me!
                     </p>
 
@@ -101,46 +81,23 @@
             </div>
         </section>
     </main>
+  <!-- End of container -->
 
-    <!-- 
-    <main class="container">
-        <section class="row">
-            <div class="col-md-8">
-                <article class="block">
-                    <h1 class="block-header">About Me</h1>
-                    <hr />
-                    <img src="assets/images/Philip.jpg" class="img-fluid rounded float-left mr-3" alt="about image"
-                    width="15%">
-                    <p> Hello, World! I have a broad background in product development that spans mechanical design,
-                        CAD,
-                        project and program management and soon...with a little luck and a lot of effort...full stack
-                        web
-                        development! </p>
-                    <p>
-                        Curiosity and a desire to gain skills have got me here. I'm finding out as I go, where
-                        it will take me!
-                    </p>
-
-                    <p>
-                        Please have a look at my coding projects and reach out to me.
-                    </p>
-                </article>
-            </div>
-        </section>
-    </main> -->
-
-    <!-- Footer is common between index.html, portfolio.html and contact.html  -->
-
-    <footer class="fixed-bottom text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>Copyright &#169</h3>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-</body>
-
-</html>
+  <!-- Start of footer -->
+  <footer class="footer">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+          &copy; Copyright
+        </p>
+      </footer>
+      <!-- End of footer -->
+    
+      <!-- jQuery CDN -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+      <!-- Bootstrap CDN -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    </body>
+    
+    </html>
