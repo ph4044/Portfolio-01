@@ -1,113 +1,3 @@
-/* header{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    background-color: #fff;
-    height: 80px;
-    padding: 0px;
-    border-bottom: 2px solid #ccc;
-    margin-bottom: 40px;
-}
-/*
-.container{
-    background-color: #fff;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 10px 0 10px;
-}
-
-nav{
-    float:right;
-    margin: 0;
-}
-
-nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-*/
-/* nav li{ */
-/*    display: inline-block;
-    margin-left: 30px; */
-    /* line-height:60px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-} */
-/* 
-
-p{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    line-height: 2;
-    margin-top: 0;
-    color:#777777;
-   
-}
-
-h1{
-    font-family: Georgia, Times, "Times New Roman", serif;
-    background-color: #4aaaa5;
-    color: #fff;
-    text-align: center;
-    height: 80px;
-    width: 225px;
-    line-height:80px;
-    float: left;
-    font-size: 30px;
-}
-
-h2{
-    font-family: Georgia, Times, "Times New Roman", serif;
-    color: #4aaaa5;
-    line-height: 30px;
-    font-size: 30px;
-}
-
-h3{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    line-height: 2;
-    margin-top: 0;
-    color: white;
-    font-size: 15px;
-} */
-/*
- section in index.html 
-#about-me{
-    padding: 20px 20px 20px 20px;
-    background-color: #ffffff;
-    color:#777777;
-    width: 920px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 250px;
-    margin-top: 0px;
-    font-size: 20px;
-}
-
- section in portfolio.html 
-#portfolio{
-    padding: 20px 20px 20px 20px;
-    background-color: #ffffff;
-    color: #777777;
-    width: 920px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
- section in contact.html 
-#contact{
-    padding: 20px 20px 20px 20px;
-    background-color: #ffffff;
-    color: #777777;
-    width: 920px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-}
-*/
 /* for the image 1 in portfolio.html */
 #pic-cont1{
     margin: 10px 0 0 0;
@@ -121,7 +11,7 @@ h3{
 
 /* for the image 2 in portfolio.html */
 #pic-cont2{
-    margin: 10px 0 0 30px;
+    margin: 10px 0 0 0;
     width: 300px;
     height: 225px;
     float: left;
@@ -136,14 +26,14 @@ h3{
     width: 300px;
     height: 225px;
     float: left;
-    background: url(../images/retirement.PNG);
+    background: url(../images/retirement.jpg);
     background-size: cover;
     position: relative;
 }
 
 /* for the image 4 in portfolio.html */
 #pic-cont4{
-    margin: 30px 0 0 30px;
+    margin: 30px 0 0 0;
     width: 300px;
     height: 225px;
     float: left;
@@ -178,97 +68,17 @@ h3{
     color: white;
 }
 
-/* narrow container to limit two images per row in portfolio.html 
-#narrow{
-    width: 440px;
-}
-
-/* don't change the color or underline visited links  */
-/* a, a:visited {
-    color: #777777;
-    text-decoration:none;
-}
-
 #link-work, #link-work:visited {
     color:white;
     text-decoration:none;
 }
 
-
-#repo-link {
-    color: grey;
+#repo-link, #repo-link:visited {
+    color:black;
     text-decoration:none;
     font-size: 12px;
-} */
-
-/* only img is in index.html 
-img{
-    border-radius: 8px;
-    max-width: 100%;
-    height: 180px;
-    float: left;
-    margin: 0px 20px 10px 0px;
-}
-*/
-/* footer is stuck to the bottom of page
-footer{
-    text-align: center;
-    border-top: 8px solid #4aaaa5;
-    margin-left: auto;
-    margin-right: auto; 
-    background-color: #666;
-    color: white;
-    font-size: 12px;
-    height: 60px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
-
-/* horizontal line, divider */
-/* hr{
-    border: 2px solid #ccc;
-} */
-
-/*
-#contact-form{
-    margin-top: 20px;
-    width: 100%;
-    color: #fff;
-    font-size: 12px;
-}
-
-input{
-    width: 100%;
-    height: 30px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-textarea{
-    width: 100%;
-    height: 300px;
-}
-
-.pic-container{
-    position: relative;
-    display: block;
-}
-
-.text-block{
-    position: absolute;
-    background-color: black;
-    color: white;
-    padding: 2x 0 2px 0;
-    height: 40px;
-} */
-
-/* submit button in contact.html */
-/* #submit-btn{
-    color: white;
-    background-color: #4aaaa5; */ 
-/* } */
 /* --- STYLES FOR ALL PAGES --- */
 body {
     /* Typography */
@@ -317,6 +127,8 @@ body {
   
     /* Visual */
     background: #4aaaa5;
+
+    padding: 0 10px 0 10px;
   }
   
   /* override bootstrap hover color and border */
@@ -451,6 +263,6 @@ body {
   .submit-btn:hover {
     opacity: .7;
   }
-  
+
   /* END CONTACT FORM PAGE */
   
